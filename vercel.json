@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/src/functions/tester1/tester1.*": {
+      "memory": 256,
+      "runtime": "@vercel/redwood@2.0.7"
+    },
+    "api/src/functions/graphql.*": {
+      "memory": 512,
+      "runtime":"@vercel/redwood@2.0.7"
+    }
+  }
+}
