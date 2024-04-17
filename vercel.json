@@ -1,4 +1,5 @@
 {
+  "buildCommand": "yarn rw build",
   "functions": {
     "api/src/functions/tester1/tester1.*": {
       "memory": 256,
