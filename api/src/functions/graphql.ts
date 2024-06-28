@@ -7,6 +7,11 @@ import services from 'src/services/**/*.{js,ts}'
 import { db } from 'src/lib/db'
 import { logger } from 'src/lib/logger'
 
+export const config = {
+  maxDuration: 20,
+  memory: 256,
+}
+
 export const handler = createGraphQLHandler({
   loggerConfig: { logger, options: {} },
   directives,
